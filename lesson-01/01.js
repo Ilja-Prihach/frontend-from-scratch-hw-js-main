@@ -6,8 +6,9 @@ let sum = 0;
 let i = 0;
 
 while (i <= 20) {
-    sum += i;
+    sum = sum + i;
     i = i + 1;
-    // console.log(result);
 }
+
+console.log(sum);
 

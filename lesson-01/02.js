@@ -6,9 +6,9 @@
 */
 
 // your code
-let factorial = 1;
-let i = 1
+let factorial = 0;
+let i = 0;
 
 while (i >= 10) {
-  
+    factorial = 
 }
