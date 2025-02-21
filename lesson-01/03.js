@@ -5,8 +5,8 @@
 */
 
 // your code
-let sum = 1;
-let i = 1;
+let sum = 0;
+let i = 0;
 
 while (i <=20) {
   if (i % 2 ===1) {
