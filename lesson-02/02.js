@@ -25,17 +25,9 @@ dice1 = Math.floor(Math.random() * 7)
 
 dice2 = Math.floor(Math.random() * 7)
 
-console.log('Первый бросок: ' + dice1)
-console.log('Второй бросок: ' + dice2)
 
 
 if (dice1 === dice2 && dice1 + dice2 >= 6) {
   isWinningDouble = true
-}
-
-if (isWinningDouble) {
-  console.log('Выигрышный дубль!')
-} else {
-  console.log('Не выигрышный дубль.')
 }
 
