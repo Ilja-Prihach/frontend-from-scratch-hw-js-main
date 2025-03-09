@@ -27,7 +27,7 @@ dice2 = Math.floor(Math.random() * 7)
 
 
 
-if (dice1 === dice2 && dice1 + dice2 >= 6) {
+if (dice1 === dice2 && dice1 + dice2 > 6) {
   isWinningDouble = true
 }
 
