@@ -4,7 +4,7 @@
  * Результат сохраните в переменной grade.
  */
 
-const score = 45 // тестовое значение, можно изменять
+const score = 50 // тестовое значение, можно изменять
 let grade
 // your code
 
@@ -19,3 +19,4 @@ if (score >= 0 && score <=49) {
 } else if(score >= 90 && score <=100) {
     grade = 'A'
 }
+console.log(grade);
