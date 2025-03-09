@@ -21,9 +21,9 @@ if (isWinningDouble) {
 }
 */
 
-dice1 = Math.floor(Math.random() * 6)
+dice1 = Math.floor(Math.random() * 7)
 
-dice2 = Math.floor(Math.random() * 6)
+dice2 = Math.floor(Math.random() * 7)
 
 console.log('Первый бросок: ' + dice1)
 console.log('Второй бросок: ' + dice2)
