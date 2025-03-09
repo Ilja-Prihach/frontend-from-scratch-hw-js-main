@@ -20,6 +20,5 @@ let isAccess;
 
 if (isAdmin === true || isVerifiedUser === true && hasSpecialPermission === true || hasTemporaryPass === true){
     isAccess = true;
-    console.log(isAccess);
 }
 
