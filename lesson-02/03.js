@@ -8,15 +8,38 @@ const score = 50 // тестовое значение, можно изменят
 let grade
 // your code
 
-if (score >= 0 && score <=49) {
-    grade = 'F'
-} else if(score >= 50 && score <=69) {
-    grade = 'D'
-} else if(score >= 70 && score <=79) {
-    grade = 'C'
-} else if(score >= 80 && score <=89) {
-    grade = 'B'
-} else if(score >= 90 && score <=100) {
-    grade = 'A'
+// if (score >= 0 && score <=49) {
+//     grade = 'F'
+// } else if(score >= 50 && score <=69) {
+//     grade = 'D'
+// } else if(score >= 70 && score <=79) {
+//     grade = 'C'
+// } else if(score >= 80 && score <=89) {
+//     grade = 'B'
+// } else if(score >= 90 && score <=100) {
+//     grade = 'A'
+// }
+// console.log(grade);
+
+switch(score) {
+    case (score >= 0 && score <=49) : {
+        grade = 'F';
+        break;
+    }
+    case (score >= 50 && score <=69) : {
+        grade = 'D';
+        break;
+    }
+    case (score >= 70 && score <=79) : {
+        grade = 'C';
+        break;
+    }
+    case (score >= 80 && score <=89) : {
+        grade = 'B';
+        break;
+    }    
+    case (score >= 90 && score <=100) : {
+        grade = 'A';
+        break;
+    }
 }
-console.log(grade);
