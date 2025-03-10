@@ -12,7 +12,9 @@ let dice2 = Math.floor(Math.random() * 6 + 1)// your code
 let isWinningDouble // your code
 
 if (dice1 === dice2 && dice1 + dice2 > 6) {
-  isWinningDouble = true
+  isWinningDouble = true;
+} else {
+  isWinningDouble = false;
 }
 
 /*
