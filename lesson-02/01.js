@@ -23,3 +23,7 @@ if ((isAdmin === true || isVerifiedUser ===true) && (hasSpecialPermission === tr
 } else {
     isAccess = false;
 }
+
+
+isAccess = isAdmin || i
+console.log(isAccess);
