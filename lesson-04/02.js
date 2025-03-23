@@ -15,4 +15,21 @@
 Подсказка: можно использовать функцию `includesElement`, которую мы написали ранее. Переписывать её не нужно, она доступна по всему проекту за счёт hoisting.
 */
 
-function findUniqueElements() {}
+
+const abab = [1, 2, 5 ,3, 3 , 4, 4, ]
+function findUniqueElements(arr) {
+    const b = []
+
+    for (let i = 0; i < arr.length; i++) {
+        if (!includesElement(arr, arr[i])) {
+            b.push(arr[i])
+        }
+    }
+
+    return b
+}
+
+console.log(findUniqueElements(abab));
+
+
+
