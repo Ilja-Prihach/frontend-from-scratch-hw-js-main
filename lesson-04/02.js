@@ -16,19 +16,31 @@
 */
 
 
+
+
 const abab = [1, 2, 5 ,3, 3 , 4, 4, ]
+// function findUniqueElements(arr) {
+//     const b = []
+
+//     for (let i = 0; i < arr.length; i++) {
+//         if (!includesElement(b, arr[i])) {
+//             b.push(arr[i])
+//         }
+//     }
+
+//     return b
+// }
 function findUniqueElements(arr) {
-    const b = []
+    const uniqueElements = [];
 
     for (let i = 0; i < arr.length; i++) {
-        if (!includesElement(arr, arr[i])) {
-            b.push(arr[i])
+        if (!includesElement(uniqueElements, arr[i])) { // Здесь важно сравнивать с uniqueElements
+            uniqueElements.push(arr[i]);
         }
     }
 
-    return b
+    return uniqueElements;
 }
-
 console.log(findUniqueElements(abab));
 
 

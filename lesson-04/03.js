@@ -22,10 +22,10 @@ const v = [2, 3 ,4]
 
 
 
-let x = b.filter(function(item) {
-    return v.includes(item)
-});
-console.log(x);
+// let x = b.filter(function(item) {
+//     return v.includes(item)
+// });
+// console.log(x);
 
 
 function findCommonElements(arr1, arr2) {
