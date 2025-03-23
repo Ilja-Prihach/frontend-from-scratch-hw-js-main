@@ -19,22 +19,23 @@
 
 
 const abab = [1, 2, 5 ,3, 3 , 4, 4, ]
-// function findUniqueElements(arr) {
-//     const b = []
+function findUniqueElements(arr) {
+    const b = []
 
-//     for (let i = 0; i < arr.length; i++) {
-//         if (!includesElement(b, arr[i])) {
-//             b.push(arr[i])
-//         }
-//     }
+    for (let i = 0; i < arr.length; i++) {
+        if (!includesElement(b, arr[i])) {
+            b.push(arr[i])
+        }
+    }
+    return b
+}
 
-//     return b
-// }
+
 function findUniqueElements(arr) {
     const uniqueElements = [];
 
     for (let i = 0; i < arr.length; i++) {
-        if (!includesElement(uniqueElements, arr[i])) { // Здесь важно сравнивать с uniqueElements
+        if (!includesElement(uniqueElements, arr[i])) { 
             uniqueElements.push(arr[i]);
         }
     }
