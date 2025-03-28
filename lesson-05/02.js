@@ -35,10 +35,14 @@ const gallery = {
   'The Scream': 'Edvard Munch',
 }
 
-function updateGallery(object, title, value) {
+function updateGallery(gallery, title, value) {
   if(gallery.hasOwnProperty(title)) {
     gallery[title] = value;
   } else {
     gallery[title] = value;
   }
 }
+
+
+
+
