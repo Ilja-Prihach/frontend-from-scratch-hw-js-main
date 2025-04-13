@@ -11,4 +11,7 @@
 
 function truncate(str, maxLength) {
   // your code
+  if (str.length >= maxLength) {
+    return str.splice()
+  }
 }

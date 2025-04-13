@@ -6,7 +6,7 @@
 function isNumeric(str) {
   // your code
   const num = parseFloat(str)
-  return !isNaN(num) && str.trim().length !== 0
+  return !isNaN(Number(str)) && isFinite(Number(str)) && str.trim().length !== 0
 }
 
 console.log(isNumeric("123")) // Ожидаемый результат: true
